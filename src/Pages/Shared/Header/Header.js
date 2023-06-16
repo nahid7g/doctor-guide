@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import logo from '../../../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const menu = (
@@ -10,10 +11,10 @@ const Header = () => {
           <summary className='text-white'>HOME</summary>
           <ul className='p-2'>
             <li>
-              <a>Submenu 1</a>
+              <Link to='/'>Submenu 1</Link>
             </li>
             <li>
-              <a>Submenu 2</a>
+              <Link to='/'>Submenu 2</Link>
             </li>
           </ul>
         </details>
@@ -23,10 +24,10 @@ const Header = () => {
           <summary className='text-white'>FEATURES</summary>
           <ul className='p-2'>
             <li>
-              <a>Submenu 1</a>
+              <Link to='/'>Submenu 1</Link>
             </li>
             <li>
-              <a>Submenu 2</a>
+              <Link to='/'>Submenu 2</Link>
             </li>
           </ul>
         </details>
@@ -36,10 +37,10 @@ const Header = () => {
           <summary className='text-white'>DEPARTMENT</summary>
           <ul className='p-2'>
             <li>
-              <a>Submenu 1</a>
+              <Link to='/'>Submenu 1</Link>
             </li>
             <li>
-              <a>Submenu 2</a>
+              <Link to='/'>Submenu 2</Link>
             </li>
           </ul>
         </details>
@@ -49,16 +50,16 @@ const Header = () => {
           <summary className='text-white'>EVENT</summary>
           <ul className='p-2'>
             <li>
-              <a>Submenu 1</a>
+              <Link to='/'>Submenu 1</Link>
             </li>
             <li>
-              <a>Submenu 2</a>
+              <Link to='/'>Submenu 2</Link>
             </li>
           </ul>
         </details>
       </li>
       <li className='text-white'>
-        <a>CONTACT US</a>
+        <Link to='/'>CONTACT US</Link>
       </li>
     </>
   );
@@ -89,10 +90,10 @@ const Header = () => {
             {menu}
           </ul>
         </div>
-        <a className='btn btn-ghost normal-case text-3xl'>
+        <Link to='/' className='btn btn-ghost normal-case text-3xl'>
           <img src={logo} alt='logo' />
           <span className='text-[#FF8B42]'>Doctor Gui</span>
-        </a>
+        </Link>
       </div>
       <div className='ml-auto'>
         <div className='hidden lg:flex'>
