@@ -1,14 +1,13 @@
 import './App.css';
 import Header from './Pages/Shared/Header/Header';
 import Footer from './Pages/Shared/Footer/Footer';
-import { RouterProvider } from 'react-router-dom';
-import router from './Routes/Routes';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
     <div>
-      <RouterProvider router={router} />
       <Header />
+      <Home />
       <Footer />
     </div>
   );
