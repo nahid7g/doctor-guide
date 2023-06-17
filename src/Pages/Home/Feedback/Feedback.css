@@ -1,0 +1,8 @@
+.feedback {
+  background-image: url('../../../assets/doctorg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.feedback .feedback-container {
+  background-color: rgba(110, 39, 224, 0.81);
+}

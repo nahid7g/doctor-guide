@@ -1,0 +1,8 @@
+.our-stats {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 137, 186, 0) 0%,
+      rgba(76, 7, 188, 0.83) 100%
+    ),
+    url('../../../assets/bg-1.png');
+}
