@@ -1,6 +1,8 @@
 import React from 'react';
 import doctory from '../../../assets/doctor-y.png';
 import SmallCard from '../../../components/SmallCard/SmallCard';
+import bag from '../../../assets/bag.png';
+import dotGrid from '../../../assets/dotgrid-sm.png';
 
 const ChildsFever = () => {
   return (
@@ -14,20 +16,39 @@ const ChildsFever = () => {
             <SmallCard bgColor='bg-indigo-500' />
           </span>
           <img
+            className='absolute top-20 right-20'
+            src={dotGrid}
+            alt='Dot grid sm'
+          />
+          <img
             className='mx-auto'
             style={{ height: '400px' }}
             src={doctory}
             alt='Doctor Y'
           />
         </div>
-        <div>
-          <h2 className='text-3xl font-bold'>Find The Care You Need</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,
-          </p>
-          <button className='btn btn-warning'>Make Appointment</button>
+        <div className='flex flex-col gap-4'>
+          <h2 className='text-3xl font-bold'>
+            Sick Kid? How to Deal with a Child’s Fever: 4 Steps
+          </h2>
+          <div className='flex flex-col gap-4'>
+            <p className='flex gap-3 items-center'>
+              <img className='h-7 w-7' src={bag} alt='Fast Aid' />
+              <span>Cras sit sed nec a nunc</span>
+            </p>
+            <p className='flex gap-3 items-center'>
+              <img className='h-7 w-7' src={bag} alt='Fast Aid' />
+              <span>Tempor mauris mauris in</span>
+            </p>
+            <p className='flex gap-3 items-center'>
+              <img className='h-7 w-7' src={bag} alt='Fast Aid' />
+              <span>Nibh turpis praesent pretium</span>
+            </p>
+            <p className='flex gap-3 items-center'>
+              <img className='h-7 w-7' src={bag} alt='Fast Aid' />
+              <span>Cras sit sed nec a nunc</span>
+            </p>
+          </div>
         </div>
       </div>
     </section>
