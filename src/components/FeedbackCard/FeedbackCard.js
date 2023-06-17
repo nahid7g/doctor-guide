@@ -4,9 +4,9 @@ import guy from '../../assets/guy.png';
 
 const FeedbackCard = () => {
   return (
-    <div className='feedback-card py-8 text-white'>
+    <div className='feedback-card py-8 px-4 text-white'>
       <h2 className='text-3xl font-bold text-center'>Find The Care You Need</h2>
-      <div className='grid items-center grid-cols-2'>
+      <div className='grid items-center md:grid-cols-2'>
         <div className='mx-auto'>
           <img src={guy} alt='Free guy' />
         </div>

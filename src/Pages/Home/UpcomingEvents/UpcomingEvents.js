@@ -4,7 +4,7 @@ import calendar from '../../../assets/Calendar.png';
 
 const UpcomingEvents = () => {
   return (
-    <div className='container'>
+    <div className='container mx-auto'>
       <div className='text-center mb-4 font-semibold'>
         <h2 className='text-3xl font-bold'>Upcoming Events</h2>
         <p className='w-2/3 mx-auto'>
@@ -14,7 +14,7 @@ const UpcomingEvents = () => {
         </p>
       </div>
       <div>
-        <div className='grid grid-cols-2 gap-4 items-center'>
+        <div className='grid md:grid-cols-2 gap-4 items-center'>
           <div>
             <img className='w-full' src={event1} alt='Event 1' />
           </div>
@@ -63,7 +63,7 @@ const UpcomingEvents = () => {
       </div>
       {/* Event Two  */}
       <div className='my-4'>
-        <div className='grid grid-cols-2 gap-4 items-center'>
+        <div className='grid md:grid-cols-2 gap-4 items-center'>
           <div className='order-last'>
             <img className='w-full' src={event1} alt='Event 1' />
           </div>
