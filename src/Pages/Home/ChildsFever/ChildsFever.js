@@ -7,7 +7,7 @@ import dotGrid from '../../../assets/dotgrid-sm.png';
 const ChildsFever = () => {
   return (
     <section>
-      <div className='container grid md:grid-cols-2 items-center justify-center'>
+      <div className='container mx-auto grid md:grid-cols-2 items-center justify-center'>
         <div className='relative'>
           <span className='absolute top-0 left-0'>
             <SmallCard bgColor='bg-fuchsia-800' />

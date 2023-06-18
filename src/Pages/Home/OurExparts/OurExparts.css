@@ -1,0 +1,8 @@
+.expert .swiper-button-prev,
+.expert .swiper-button-next {
+  color: #fff !important;
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}

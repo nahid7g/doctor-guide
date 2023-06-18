@@ -6,8 +6,8 @@ import ScheduleSlider from '../../../components/ScheduleSlider/ScheduleSlider';
 const DoctorSchedule = () => {
   return (
     <section>
-      <div className='container grid md:grid-cols-2 items-center justify-center'>
-        <div className='mx-auto'>
+      <div className='container mx-auto grid md:grid-cols-2 items-center justify-center'>
+        <div className='mx-auto h-96'>
           <h2 className='text-3xl font-bold mb-4'>Doctor’s Schedule Today</h2>
           <div className='flex flex-col gap-8'>
             <ScheduleSlider />

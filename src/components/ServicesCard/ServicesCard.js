@@ -3,7 +3,7 @@ import orthopedic from '../../assets/orthopedic.png';
 
 const ServicesCard = () => {
   return (
-    <div>
+    <div className='cursor-pointer'>
       <img src={orthopedic} alt='Orthopedic' />
       <p className='bg-fuchsia-800 py-2 text-center text-white'>
         Orthopedic Clinic

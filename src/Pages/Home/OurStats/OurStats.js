@@ -5,8 +5,8 @@ import './OurStats.css';
 const OurStats = () => {
   return (
     <section
-      style={{ height: '400px' }}
-      className='our-stats flex items-center justify-around'
+      style={{ minHeight: '400px' }}
+      className='our-stats flex flex-wrap items-center justify-around p-4 gap-4'
     >
       <Stats />
       <Stats />
